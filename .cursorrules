@@ -1,0 +1,7 @@
+# Regras de Contexto para Desenvolvimento (AI Assistant Context)
+
+- **Linguagem:** Python 3.12+ com tipagem estática rigorosa (Type Hints).
+- **Padrão de Código:** Obediência estrita ao PEP 8 e programação defensiva.
+- **Testes Unitários:** Utilização obrigatória do framework `pytest` estruturado no padrão AAA (Arrange, Act, Assert).
+- **Técnicas de Teste:** Aplicação de Particionamento de Equivalência (EP), Análise do Valor Limite (BVA) e Error Guessing.
+- **Cobertura:** Meta obrigatória de 100% de cobertura de código e ramificações (`branch coverage`) auditada via `pytest-cov`.

@@ -1,0 +1,25 @@
+[project]
+name = "atividade-qts1"
+version = "0.1.0"
+description = "Sistema de Avaliação Acadêmica - AT1 QTS"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+]
+
+[project.scripts]
+atividade-qts1 = "atividade_qts1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v --cov=. --cov-branch --cov-report=term-missing"
+pythonpath = ["."]
+markers = [
+    "unit: mark test as a unit test",
+]
