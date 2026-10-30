@@ -22,4 +22,5 @@ addopts = "-v --cov=. --cov-branch --cov-report=term-missing"
 pythonpath = ["."]
 markers = [
     "unit: mark test as a unit test",
+    "integration: marca para testes de integração",
 ]
